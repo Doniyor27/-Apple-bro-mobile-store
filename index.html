@@ -8,16 +8,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/switch.css">
   <title>Mobile store</title>
 </head>
 <body>
+
+  <div class="overlay" id="overlay">
+  </div>
+
   <section class="section_1">
     <header class="header container">
       <a href="#"><img class="header_logo" src="./images/icons/apple_bron.png" alt="logotip"></a>
       <div class="header_info_wrapper">
         <div class="hours_wrapper">
           <h4 class="hours_title">
-            SERVICE HOURS
+            График работы
           </h4>
           <p class="hours_cont">
             Mon - Sat: 7:00 am - 6:00 pm
@@ -25,13 +30,19 @@
         </div>
         <div class="phone_wrapper">
           <h4 class="hours_title">
-            CALL US
+            Свяжись с нами
           </h4>
           <p class="hours_cont">
             (555) Car-Repair
           </p>
         </div>
-        <a href="#" class="header_btn"> Make an Appointment</a>
+        <input type="checkbox" class="switch" id="switch-1">
+
+        <a href="#" class="burger" id="burger__btn">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </a>
       </div>
     </header>
 
@@ -60,6 +71,7 @@
       <a href="#" class="hero_btn"> Make an Appointment</a>
     </div>
   </section>
+  <script src="./scripts/switch.js"></script>
   <script src="./scripts/main.js"></script>
 </body>
 </html>
