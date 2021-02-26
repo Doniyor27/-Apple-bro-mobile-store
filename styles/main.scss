@@ -30,7 +30,7 @@ a {
 }
 
 .section_1 {
-  background-image: url('../images/bg_crop.jpg');
+  background : url('../images/bg_crop.jpg');
   background-repeat: no-repeat;
   padding-top: 30px;
   background-size: cover;
@@ -46,7 +46,7 @@ a {
 .header_info_wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   // margin-bottom: 27px;
 
   .hours_title {
@@ -389,6 +389,10 @@ a {
   height: 100%;
 }
 
+.toggle {
+  margin: 0 !important;
+}
+
 @media screen and (max-width:576px) {
   .container {
     width: auto;
@@ -420,7 +424,7 @@ a {
   .header_info_wrapper {
     display: block;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     margin-bottom: 27px;
 
     .hours_title {
