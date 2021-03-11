@@ -16,6 +16,7 @@ overlay.addEventListener("click", function(e){
   e.preventDefault();
 
   overlay.classList.toggle("visible");
+  burgerButton.classList.toggle("crossed");
 });
 
 
