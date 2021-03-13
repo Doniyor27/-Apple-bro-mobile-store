@@ -65,6 +65,8 @@ a {
 
 .header_info_wrapper .hours_cont {
   color: #fff;
+  margin-top: 10px;
+  display: inline-block;
 }
 
 .hours_wrapper {
@@ -555,6 +557,7 @@ a {
 
 .section-2-bottom_info {
   display: flex;
+  margin-left: -27px;
 }
 
 .section-2-bottom_title {
@@ -906,6 +909,13 @@ input[type=checkbox]:checked+label {
   text-align: center;
   color: #FFFFFF;
   margin-top: 46px;
+}
+
+.section-5 {
+  background-image: url('../images/Gears.png');
+  background-repeat: no-repeat;
+  background-size: 1033px 750px;
+  background-position: right top;
 }
 
 
