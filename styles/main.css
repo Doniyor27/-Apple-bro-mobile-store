@@ -885,7 +885,7 @@ input[type=checkbox]:checked+label {
   line-height: 36px;
   text-align: center;
   color: #FFFFFF;
-  margin-top: 275px;
+  margin-top: 215px;
 }
 
 .followers-numb {
@@ -898,7 +898,11 @@ input[type=checkbox]:checked+label {
   text-align: center;
   color: #C40B0B;
   margin-top: 45px;
-  margin-left: 111px;
+  margin-left: 45px;
+}
+
+.followers-numb2 {
+  margin-left: 25px;
 }
 
 .followers-subtitle {
@@ -916,6 +920,16 @@ input[type=checkbox]:checked+label {
   background-repeat: no-repeat;
   background-size: 1033px 750px;
   background-position: right top;
+}
+
+.in_sm {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 
