@@ -1133,7 +1133,6 @@ input[type=checkbox]:checked+label {
 
 .footer-bottom {
   background: #02133C;
-  padding: 23px 0;
 }
 .footer-bottom-inner {
   display: flex;
