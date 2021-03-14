@@ -859,7 +859,7 @@ input[type=checkbox]:checked+label {
 }
 
 .section-5 {
-  background: #02133C;
+  background: #3b3b3d;
 }
 
 .section-5-inner {
@@ -933,8 +933,231 @@ input[type=checkbox]:checked+label {
 }
 
 
+.thumbnail_slider_area {
+  display: none;
+}
 
+.section-7 {
+  background-color:#02133C;
+  background-image: url('../images/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 200px;
+}
 
+.section-7-top {
+  display: flex;
+  padding-top: 100px;
+}
+
+.section-7-bottom {
+  padding-bottom: 212px;
+}
+
+.section-7-subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #D5D5D5;
+}
+
+.section-7-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+  width: 411px;
+  margin-top: 33px;
+}
+
+.section-7-top_right {
+  margin-left: 140px;
+  margin-top: -180px;
+}
+
+.section-7-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 86px;
+}
+
+.mini-card {
+  display: flex;
+}
+
+.mini-card-img {
+  width: 54px;
+  height: 76px;
+}
+
+.mini-card_numb {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #C40B0B;
+}
+
+.mini-card_cont {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #F5F5F5;
+}
+
+.footer-top {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -72px;
+}
+
+.footer-top-left {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  color: #02133C;
+  width: 562px;
+  padding-top: 43px;
+  padding-bottom: 48px;
+}
+
+.footer-top-right {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #C40B0B;
+  padding: 14px 10px;
+
+}
+
+.footer-top-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.footer-top-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2c0000;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.footer-top-right:hover,
+.footer-top-right:focus,
+.footer-top-right:active {
+  color: white;
+}
+
+.footer-top-right:hover:before,
+.footer-top-right:focus:before,
+.footer-top-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 120px;
+}
+
+.footer-logo-name {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000;
+}
+
+.footer-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 88px;
+}
+
+.footer-middle-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+  width: 235px;
+  margin-top: 23px;
+}
+
+.footer-sm {
+  margin-top: 35px;
+}
+
+.footer-bottom {
+  background: #02133C;
+  padding: 23px 0;
+}
+.footer-bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 0 18px 0;
+}
+
+.footer-bottom-left {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+  color: #959595;
+}
+
+.footer-bottom-right {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+  color: #959595;
+}
 
 
 
