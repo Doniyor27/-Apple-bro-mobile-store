@@ -942,7 +942,7 @@ input[type=checkbox]:checked+label {
   background-image: url('../images/background.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 
 .section-7-top {
@@ -979,6 +979,7 @@ input[type=checkbox]:checked+label {
 .section-7-top_right {
   margin-left: 140px;
   margin-top: -180px;
+  z-index: 88;
 }
 
 .section-7-bottom {
