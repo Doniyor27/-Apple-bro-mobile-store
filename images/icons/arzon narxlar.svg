@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="755.90552"
+   height="755.90552"
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="arzon narxlar.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.67611765"
+     inkscape:cx="475.64898"
+     inkscape:cy="452.76317"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g187"
+       transform="matrix(0.41310742,0,0,0.41310742,1.4253553,1.4253518)">
+      <path
+         d="m 256,360 c 0,8.83594 -7.16406,16 -16,16 -8.83594,0 -16,-7.16406 -16,-16 0,-8.83594 7.16406,-16 16,-16 8.83594,0 16,7.16406 16,16 z m 0,0"
+         id="path170" />
+      <path
+         d="m 176,424 v 40 h -56 v 16 h 240 v -16 h -56 v -40 h -16 v 40 h -96 v -40 z m 0,0"
+         id="path172" />
+      <path
+         d="M 456,0 H 24 C 10.75,0.015625 0.015625,10.75 0,24 v 360 c 0.015625,13.25 10.75,23.98437 24,24 h 432 c 13.25,-0.0156 23.98437,-10.75 24,-24 V 24 C 479.98437,10.75 469.25,0.015625 456,0 Z m 8,384 c -0.004,4.41797 -3.58203,7.99609 -8,8 H 24 c -4.417969,-0.004 -7.996094,-3.58203 -8,-8 v -56 h 448 z m 0,-72 H 16 V 24 c 0.0039,-4.417969 3.582031,-7.996094 8,-8 h 432 c 4.41797,0.0039 7.99609,3.582031 8,8 z m 0,0"
+         id="path174" />
+    </g>
+    <g
+       id="g1264"
+       transform="matrix(0.23460261,0,0,0.23460261,40.361324,9.206675)">
+      <path
+         d="m 256,40 a 80,80 0 1 0 80,80 80.093,80.093 0 0 0 -80,-80 z m 0,144 a 64,64 0 1 1 64,-64 64.072,64.072 0 0 1 -64,64 z"
+         id="path1248" />
+      <path
+         d="M 256,8 A 112,112 0 1 0 368,120 112.123,112.123 0 0 0 256,8 Z m 0,208 a 96,96 0 1 1 96,-96 96.115,96.115 0 0 1 -96,96 z"
+         id="path1250" />
+      <path
+         d="m 280,120 v 24 a 8,8 0 0 1 -8,8 h -8 a 8,8 0 0 1 -16,0 h -8 a 8,8 0 0 1 0,-16 h 24 v -8 h -24 a 8,8 0 0 1 -8,-8 V 96 a 8,8 0 0 1 8,-8 h 8 a 8,8 0 0 1 16,0 h 8 a 8,8 0 0 1 0,16 h -24 v 8 h 24 a 8,8 0 0 1 8,8 z"
+         id="path1252" />
+      <path
+         d="M 383.16,332.42 A 8.011,8.011 0 0 0 376,328 h -40 v -80 a 8,8 0 0 0 -8,-8 H 184 a 8,8 0 0 0 -8,8 v 80 h -40 a 8,8 0 0 0 -6.4,12.8 l 120,160 a 8,8 0 0 0 12.8,0 l 120,-160 a 8.011,8.011 0 0 0 0.76,-8.38 z M 256,482.67 152,344 h 32 a 8,8 0 0 0 8,-8 v -80 h 128 v 80 a 8,8 0 0 0 8,8 h 32 z"
+         id="path1254" />
+      <path
+         d="M 143.187,268.485 A 8,8 0 0 0 136,264 H 120 V 160 a 8,8 0 0 0 -8,-8 H 48 a 8,8 0 0 0 -8,8 V 264 H 24 a 8,8 0 0 0 -6.315,12.911 l 56,72 a 8,8 0 0 0 12.63,0 l 56,-72 a 8,8 0 0 0 0.872,-8.426 z M 80,330.97 40.357,280 H 48 a 8,8 0 0 0 8,-8 V 168 h 48 v 104 a 8,8 0 0 0 8,8 h 7.643 z"
+         id="path1256" />
+      <path
+         d="m 48,144 h 64 a 8,8 0 0 0 8,-8 v -24 a 8,8 0 0 0 -8,-8 H 48 a 8,8 0 0 0 -8,8 v 24 a 8,8 0 0 0 8,8 z m 8,-24 h 48 v 8 H 56 Z"
+         id="path1258" />
+      <path
+         d="M 495.187,204.485 A 8,8 0 0 0 488,200 H 472 V 96 a 8,8 0 0 0 -8,-8 h -64 a 8,8 0 0 0 -8,8 v 104 h -16 a 8,8 0 0 0 -6.315,12.911 l 56,72 a 8,8 0 0 0 12.63,0 l 56,-72 a 8,8 0 0 0 0.872,-8.426 z M 432,266.97 392.357,216 H 400 a 8,8 0 0 0 8,-8 V 104 h 48 v 104 a 8,8 0 0 0 8,8 h 7.643 z"
+         id="path1260" />
+      <path
+         d="m 400,80 h 64 a 8,8 0 0 0 8,-8 V 48 a 8,8 0 0 0 -8,-8 h -64 a 8,8 0 0 0 -8,8 v 24 a 8,8 0 0 0 8,8 z m 8,-24 h 48 v 8 h -48 z"
+         id="path1262" />
+    </g>
+  </g>
+</svg>

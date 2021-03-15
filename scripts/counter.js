@@ -27,5 +27,17 @@ const animateCountUp = (el) => {
   }, frameDuration);
 };
 
-const countupEls = document.querySelectorAll(".timer");
-countupEls.forEach(animateCountUp);
+
+window.addEventListener('scroll', () => {
+      console.log(window.pageYOffset);
+
+  if (window.pageYOffset === 3877) {
+    console.log(window.pageYOffset);
+  //  countAll();
+    // window.removeEventListener('scroll', countAll)
+    // const countupEls = document.querySelectorAll(".timer");
+    // countupEls.forEach(animateCountUp);
+  }
+})
+
+
