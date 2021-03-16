@@ -760,7 +760,7 @@ a {
   height: 100px;
   object-fit: contain;
   position: absolute;
-  top: 0;
+  top: -160px;
   left: 0;
   right: 0;
   margin: auto;
@@ -1210,6 +1210,8 @@ input[type=checkbox]:checked+label {
 .phone_wrapper {
   margin-right: 0;
 }
+
+
 
 
 

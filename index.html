@@ -9,11 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="./styles/switch.css">
   <link rel="stylesheet" href="./styles/slick.css">
   <link rel="stylesheet" href="./styles/sm.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css">
   <script src="//code.jivosite.com/widget/Ez7Aw4X0GV" async></script>
   <title>Apple Bro</title>
 </head>
@@ -67,11 +67,11 @@
     <nav class="container nav">
       <div class="nav_left">
         <ul class="nav_ul">
-          <li><a href="#" class="nav_link">кто мы и наша цель</a></li>
-          <li><a href="#" class="nav_link">НАШЕ ОБЕЩАНИЕ ВАМ</a></li>
-          <li><a href="#" class="nav_link">НАШИ УСЛУГИ</a></li>
-          <li><a href="#" class="nav_link">НАША СЕМЬЯ</a></li>
-          <li><a href="#" class="nav_link">ОТЧЕТЫ</a></li>
+          <li><a href="#ktomi" class="nav_link">кто мы и наша цель</a></li>
+          <li><a href="#nawevam" class="nav_link">НАШЕ ОБЕЩАНИЕ ВАМ</a></li>
+          <li><a href="#naweuslugi" class="nav_link">НАШИ УСЛУГИ</a></li>
+          <li><a href="#nawasemya" class="nav_link">НАША СЕМЬЯ</a></li>
+          <li><a href="#otcoti" class="nav_link">ОТЧЕТЫ</a></li>
         </ul>
       </div>
       <!-- <div class="nav_right">
@@ -81,36 +81,37 @@
     </nav>
 
     <div class="container hero">
-      <h1 class="hero_title" data-aos="fade-right">
+      <h1 class="hero_title" data-aos="fade-right" data-aos-delay="200">
         Наша главная цель - высокий уровень сервиса и качествo
       </h1>
 
-      <a href="#" class="hero_btn" data-aos="fade-right"> Make an Appointment</a>
+      <a href="#" class="hero_btn" data-aos="fade-right" data-aos-delay="600"> Make an Appointment</a>
     </div>
   </section>
 
-  <section class="section-2">
+  <section class="section-2" data-aos="fade-up" data-aos-delay="0">
     <div class="section-2-top container">
-      <p class="section-2-top_subtitle" data-aos="fade-right">
+      <p id="ktomi" class="section-2-top_subtitle" data-aos="fade-right">
         КТО МЫ
       </p>
 
-      <h2 class="section-2-top_title" data-aos="fade-right">
+      <h2 class="section-2-top_title" data-aos="fade-right" data-aos-delay="200">
         Nemo enim ipsam voluptatem quia voluptas in proident
       </h2>
 
-      <p class="section-2-top_content" data-aos="fade-left">
+      <p class="section-2-top_content" data-aos="fade-right" data-aos-delay="200">
         Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
         commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
         consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
       </p>
 
-      <img data-aos="fade-right" src="./images/img.png" alt="image" class="section-2-top_img">
+      <img data-aos="fade-left" data-aos-delay="400" data-aos-offset="0" src="./images/img.png" alt="image"
+        class="section-2-top_img">
     </div>
 
     <div class="boshliq"></div>
 
-    <div class="section-2-bottom container">
+    <div id="nawevam" class="section-2-bottom container">
       <p class="section-2-bottom_subtitle" data-aos="fade-up-right">
         OUR PROMISE TO YOU
       </p>
@@ -120,17 +121,7 @@
       </h2>
 
       <div class="section-2-bottom_info">
-        <div class="info-1" data-aos="fade-right" data-aos-delay="50">
-          <h3 class="info-1_title">
-            Quality service. Everytime.
-          </h3>
-
-          <p class="info-1_text">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores
-            et quas.
-          </p>
-        </div>
-        <div class="info-1" data-aos="fade-right" data-aos-delay="200">
+        <div class="info-1" data-aos="fade-right" data-aos-delay="0">
           <h3 class="info-1_title">
             Quality service. Everytime.
           </h3>
@@ -141,6 +132,16 @@
           </p>
         </div>
         <div class="info-1" data-aos="fade-right" data-aos-delay="500">
+          <h3 class="info-1_title">
+            Quality service. Everytime.
+          </h3>
+
+          <p class="info-1_text">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores
+            et quas.
+          </p>
+        </div>
+        <div class="info-1" data-aos="fade-right" data-aos-delay="1000">
           <h3 class="info-1_title">
             Quality service. Everytime.
           </h3>
@@ -167,7 +168,7 @@
   </section>
 
   <section class="section-4">
-    <div class="section-4_inner container">
+    <div id="naweuslugi" class="section-4_inner container">
       <p class="section-4_subtitle" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >
         Our Services
       </p>
@@ -177,81 +178,99 @@
       </h2>
 
       <div class="section-4_topcard">
-        <div class="card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="50">
-          <img src="./images/icons/tradi-in-org.svg" alt="img" class="card_img">
-          <h3 class="card_title">
-            trade in
-          </h3>
-          <p class="card_text">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores
-            et
-            quas.
-          </p>
+        <div class="card">
+          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="0">
+            <img src="./images/icons/tradi-in-org.svg" alt="img" class="card_img">
+            <h3 class="card_title">
+              trade in
+            </h3>
+            <p class="card_text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores
+              et
+              quas.
+            </p>
+          </div>
         </div>
 
-        <div class="card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="150">
-          <img src="./images/icons/javvob.svg" alt="img" class="card_img">
-          <h3 class="card_title">
-            3 oy garantiya
-          </h3>
-          <p class="card_text">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores
-            et
-            quas.
-          </p>
+        <div class="card">
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250">
+            <img src="./images/icons/javvob.svg" alt="img" class="card_img">
+            <h3 class="card_title">
+              3 oy garantiya
+            </h3>
+            <p class="card_text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores
+              et
+              quas.
+            </p>
+          </div>
         </div>
 
-        <div class="card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250">
-          <img src="./images/icons/sipat.svg" alt="img" class="card_img">
-          <h3 class="card_title">
-            sifatli va ishonchli servis
-          </h3>
-          <p class="card_text">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores
-            et
-            quas.
-          </p>
+        <div class="card">
+          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500">
+            <img src="./images/icons/sipat.svg" alt="img" class="card_img">
+            <h3 class="card_title">
+              sifatli va ishonchli servis
+            </h3>
+            <p class="card_text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos
+              dolores
+              et
+              quas.
+            </p>
+          </div>
         </div>
+        
       </div>
       <div class="section-4_bottomcard">
-        <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="350">
-          <img src="./images/icons/assortiment-kop.svg" alt="img" class="card_img">
-          <h3 class="card_title">
-            keng assortiment
-          </h3>
-          <p class="card_text">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores
-            et
-            quas.
-          </p>
+        <div class="card">
+          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="750">
+            <img src="./images/icons/assortiment-kop.svg" alt="img" class="card_img">
+            <h3 class="card_title">
+              keng assortiment
+            </h3>
+            <p class="card_text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos
+              dolores
+              et
+              quas.
+            </p>
+          </div>
         </div>
-
-        <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="450">
-          <img src="./images/icons/arzon narxlar.svg" alt="img" class="card_img">
-          <h3 class="card_title">
-            arzon narxlar
-          </h3>
-          <p class="card_text">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores
-            et
-            quas.
-          </p>
+        
+        <div class="card">
+          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="1000">
+            <img src="./images/icons/arzon narxlar.svg" alt="img" class="card_img">
+            <h3 class="card_title">
+              arzon narxlar
+            </h3>
+            <p class="card_text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos
+              dolores
+              et
+              quas.
+            </p>
+          </div>
         </div>
-
-        <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="550">
-          <img src="./images/icons/aksiya.svg" alt="img" class="card_img">
-          <h3 class="card_title">
-            aksiyalar
-          </h3>
-          <p class="card_text">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores
-            et
-            quas.
-          </p>
+        
+        <div class="card">
+          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="1250">
+            <img src="./images/icons/aksiya.svg" alt="img" class="card_img">
+            <h3 class="card_title">
+              aksiyalar
+            </h3>
+            <p class="card_text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos
+              dolores
+              et
+              quas.
+            </p>
+          </div>
         </div>
+        
       </div>
 
-      <a href="#" class="section-4_btn">
+      <a href="#" class="section-4_btn" data-aos="fade-up">
         Learn More
       </a>
     </div>
@@ -261,19 +280,19 @@
   <section class="section-5">
     <div class="section-5-inner container">
       <div class="map">
-        <iframe id="preview"
+        <iframe id="preview" data-aos="flip-up"
           style="border:0px;height:640px;width:585px;margin:5px;box-shadow: 0 0 16px 3px rgba(0,0,0,.2);"
           src="https://xn--r1a.website/s/materialls27">
         </iframe>
       </div>
 
       <div class="followers">
-        <p class="followers-title">
+        <p class="followers-title" data-aos="fade-left">
           Maxime placeat facere possimus omnis
         </p>
 
         <div>
-          <div class="single_counter_item">
+          <div class="single_counter_item" data-aos="fade-left" data-aos-delay="200">
             <h4 class="in_sm">in instagram</h4>
             <h3 class="followers-numb"><span class="timer">10800</span>+</h3>
 
@@ -282,28 +301,28 @@
           </div>
         </div>
 
-        <p class="followers-subtitle">customers served (and counting)</p>
+        <p class="followers-subtitle" data-aos="fade-left" data-aos-delay="300">customers served (and counting)</p>
       </div>
     </div>
   </section>
 
   <section class="section-6">
-    <div class="section-2-top container">
-      <p class="section-2-top_subtitle">
+    <div id="nawasemya" class="section-2-top container">
+      <p class="section-2-top_subtitle" data-aos="fade-right">
         Who we are
       </p>
 
-      <h2 class="section-2-top_title">
+      <h2 class="section-2-top_title" data-aos="fade-right" data-aos-delay="200">
         Наша семья
       </h2>
 
-      <p class="section-2-top_content">
+      <p class="section-2-top_content" data-aos="fade-left" data-aos-delay="500">
         Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
         commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
         consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
       </p>
 
-      <div class="carousel_wrapper">
+      <div class="carousel_wrapper" data-aos="fade-left" data-aos-delay="700">
         <div class="banner_slider">
           <div class="item_wrapper">
             <img src="./images/iron.jfif" alt="image" class="carousel_item section-2-top_img">
@@ -346,30 +365,30 @@
   <section class="section-7">
     <div class="section-7-inner container">
       <div class="section-7-top">
-        <div class="section-7-top_left">
-          <p class="section-7-subtitle">
+        <div id="otcoti" class="section-7-top_left">
+          <p class="section-7-subtitle" data-aos="fade-right" data-aos-delay="300">
             OUR IMPACT
           </p>
 
-          <h2 class="section-7-title">
+          <h2 class="section-7-title" data-aos="fade-right" data-aos-delay="600">
             Nemo enim ipsam voluptatem quia voluptas
           </h2>
         </div>
-        <div class="section-7-top_right">
+        <div class="section-7-top_right" data-aos="fade-left" data-aos="fade-right" data-aos-delay="700">
           <img src="./images/photo_2021-03-01_15-12-25.jpg" alt="img" class="section-7-img">
         </div>
       </div>
       <div class="section-7-bottom">
-        <div class="mini-card">
+        <div class="mini-card" data-aos="fade-right" data-aos-delay="100">
           <img src="./images/icons/phone.svg" alt="img" class="mini-card-img">
           <div class="mini-card-text">
-            <h3 class="mini-card_numb"><span class="timer">60</span>+</h3>
+            <h3 class="mini-card_numb"><span class="timer">60</span>turdan</h3>
             <p class="mini-card_cont">
-              tadan oshiq gadget turlari
+             oshiq gadget turlari
             </p>
           </div>
         </div>
-        <div class="mini-card">
+        <div class="mini-card" data-aos="fade-right" data-aos-delay="500">
           <img src="./images/icons/phone.svg" alt="img" class="mini-card-img">
           <div class="mini-card-text">
             <h3 class="mini-card_numb"><span class="timer">90</span>kun</h3>
@@ -378,16 +397,16 @@
             </p>
           </div>
         </div>
-        <div class="mini-card">
+        <div class="mini-card" data-aos="fade-left" data-aos-delay="1000">
           <img src="./images/icons/phone.svg" alt="img" class="mini-card-img">
           <div class="mini-card-text">
             <h3 class="mini-card_numb"><span class="timer">60</span>daqiqa</h3>
             <p class="mini-card_cont">
-             daqiqa ichida dostavka
+              ichida dostavka
             </p>
           </div>
         </div>
-        <div class="mini-card">
+        <div class="mini-card" data-aos="fade-left" data-aos-delay="1500">
           <img src="./images/icons/phone.svg" alt="img" class="mini-card-img">
           <div class="mini-card-text">
             <h3 class="mini-card_numb"><span class="timer">100</span>turdan</h3>
@@ -402,15 +421,15 @@
 
   <section class="section-8">
     <div class="footer-top container">
-      <p class="footer-top-left">
+      <p class="footer-top-left" data-aos="fade-right" data-aos-delay="100">
         Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
       </p>
-      <a href='' class="footer-top-right"> Make an Appointment</a>
+      <a href='' class="footer-top-right" data-aos="fade-left" data-aos-delay="300"> Make an Appointment</a>
     </div>
 
     <div class="footer-middle container">
       <div class="footer-middle-left">
-        <div class="logo-wrapper">
+        <div class="logo-wrapper" data-aos="fade-right" data-aos-delay="200">
           <img src="./images/icons/apple_bron.png" alt="logo" class="footer-logo">
           <p class="footer-logo-name">
             Apple bro
@@ -419,18 +438,18 @@
       </div>
 
       <div class="footer-sm">
-        <div class="social-icons">
-          <a class="social-icon social-icon--instagram">
+        <div class="social-icons" data-aos="fade-up" data-aos-delay="400">
+          <a href="https://www.instagram.com/apple_broo/" class="social-icon social-icon--instagram">
             <img class="sm-icons" src="./images/icons/instagram.svg" alt="">
-            <div class="tooltip">Apple_broo</div>
+            <div class="tooltip">@apple_broo</div>
           </a>
-          <a class="social-icon social-icon--linkedin">
+          <a href="https://t.me/apple_broo" class="social-icon social-icon--linkedin">
             <img class="sm-icons" src="./images/icons/telegram.svg" alt="">
             <div class="tooltip">t.me//aplle_broo</div>
           </a>
-          <a class="social-icon social-icon--facebook">
+          <a href="https://www.tiktok.com/@applebroo_?lang=ru-RU" class="social-icon social-icon--facebook">
             <img class="sm-icons" src="./images/icons/tik-tok.svg" alt="">
-            <div class="tooltip">Tik-Tok</div>
+            <div class="tooltip">@applebroo_</div>
           </a>
         </div>
 
